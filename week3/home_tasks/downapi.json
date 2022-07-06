@@ -1,0 +1,11 @@
+//{"results":[{"gender":"male","name":{"title":"Monsieur","first":"Leo","last":"Lefevre"},"location":{"street":{"number":8087,"name":"Rue du 8 Mai 1945"},"city":"Crémines","state":"Jura","country":"Switzerland","postcode":9133,"coordinates":{"latitude":"-63.3233","longitude":"-155.2591"},"timezone":{"offset":"-5:00","description":"Eastern Time (US & Canada), Bogota, Lima"}},"email":"leo.lefevre@example.com","login":{"uuid":"884cc36e-7652-409e-ad9e-3217e411973e","username":"organictiger309","password":"speaker","salt":"BxvhbJ64","md5":"5ef4ab1cdad05fcd890de68b0f93a2a6","sha1":"c9be89fb77acb097c63b9225d32315a76f5ec470","sha256":"592a55b8d067f58eee20f172568cf82dd2bb5e40f2d89c4af032e5c94a6ecfe2"},"dob":{"date":"1954-12-28T17:56:14.194Z","age":67},"registered":{"date":"2004-08-14T10:44:04.288Z","age":17},"phone":"076 006 42 88","cell":"079 957 43 25","id":{"name":"AVS","value":"756.9300.3109.40"},"picture":{"large":"https://randomuser.me/api/portraits/men/45.jpg","medium":"https://randomuser.me/api/portraits/med/men/45.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/45.jpg"},"nat":"CH"}],"info":{"seed":"1691e940d4346072","results":1,"page":1,"version":"1.4"}}
+    
+    
+with open ('downApi.json','r') as file 
+    data == file.read()
+    #print(data)
+    #print(type(data))
+    user = json.loads(data)
+    print (user)
+    print (type(data))
+
